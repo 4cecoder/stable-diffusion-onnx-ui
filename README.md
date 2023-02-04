@@ -26,9 +26,9 @@ Prerequisites
 
 From an empty folder:
 
-```ps1
+```shell
 python -m venv venv
-.\venv\Scripts\activate
+source venv/bin/activate
 python -m pip install --upgrade pip
 pip install wheel wget
 pip install git+https://github.com/huggingface/diffusers.git
